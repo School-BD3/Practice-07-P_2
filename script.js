@@ -77,7 +77,7 @@ const getStats = () => {
     return acc;
   }, {});
 
-  console.log("📊 Статистика:");
+  console.log("Статистика:");
   console.log("Середній бал:", avgGrade.toFixed(2));
   console.log("Найкращий студент:", bestStudent);
   console.log("Розподіл за факультетами:", facultyStats);
@@ -89,11 +89,11 @@ const findStudentByName = (name) => {
   const student = students.find(s => s.name.toLowerCase() === name.toLowerCase());
 
   if (!student) {
-    console.log("❌ Студента не знайдено");
+    console.log("Студента не знайдено");
     return;
   }
 
-  console.log("🔍 Знайдено:", student);
+  console.log("Знайдено:", student);
 };
 
 // МЕНЮ
