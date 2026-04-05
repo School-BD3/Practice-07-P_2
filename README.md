@@ -32,3 +32,6 @@ node index.js
   grade: 85.5,
   faculty: "IT"
 }
+
+## Demo відео
+https://drive.google.com/file/d/1Ei4qvY10U5VQPGS_swfJYgT0yXdYorp5/view?usp=drive_link
